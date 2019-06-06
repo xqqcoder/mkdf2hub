@@ -13,4 +13,5 @@
 #FROM gcr.io/kubeflow-images-public/notebook-controller:v20190401-v0.4.0-rc.1-308-g33618cc9-e3b0c4
 #FROM gcr.io/kubeflow-images-public/pytorch-operator:v0.5.0
 #FROM gcr.io/kubeflow-images-public/tf_operator:v0.5.0
-FROM gcr.io/ml-pipeline/api-server:0.1.16
+#FROM gcr.io/ml-pipeline/api-server:0.1.16
+FROM gcr.io/ml-pipeline/scheduledworkflow:0.1.16
