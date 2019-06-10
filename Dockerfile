@@ -15,4 +15,5 @@
 #FROM gcr.io/kubeflow-images-public/tf_operator:v0.5.0
 #FROM gcr.io/ml-pipeline/api-server:0.1.16
 #FROM gcr.io/ml-pipeline/scheduledworkflow:0.1.16
-FROM gcr.io/ml-pipeline/persistenceagent:0.1.16
+#FROM gcr.io/ml-pipeline/persistenceagent:0.1.16
+FROM gcr.io/ml-pipeline/viewer-crd-controller:0.1.16
