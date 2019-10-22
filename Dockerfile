@@ -19,4 +19,4 @@
 #FROM gcr.io/ml-pipeline/viewer-crd-controller:0.1.16
 #FROM gcr.io/ml-pipeline/frontend:0.1.16
 #FROM k8s.gcr.io/volume-nfs:0.8
-gcr.io/google_containers/cadvisor:v0.34.0
+FROM gcr.io/google_containers/cadvisor:v0.34.0
